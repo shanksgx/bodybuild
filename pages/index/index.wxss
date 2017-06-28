@@ -1,0 +1,101 @@
+/**index.wxss**/
+page,
+.page,
+.page__bd{
+    height: 100%;
+    background: #eeeeee;
+}
+.page__bd{
+    padding-bottom: 0;
+}
+.weui-tab__content{
+    padding-top: 60px;
+    text-align: center;
+}
+.weui-navbar{
+  background:#ffffff;
+}
+.weui-navbar__title{
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: "微软雅黑";
+  color:#474443;
+}
+.ui-date{
+  font-size:12px;
+  color:#888888;
+}
+
+.tab-course{
+  display: flex;
+  flex-direction: column;
+  border: 2rpx solid #cccccc;
+  width:96%;
+  padding:1% 1%;
+  position: relative;
+  background: #ffffff;
+}
+.icon-timez{
+  position: absolute;
+  width:70rpx;
+  height:70rpx;
+  background: transparent url('http://wdt.so/zht/tchuang/timez.png') no-repeat;
+  top:-70rpx;
+}
+.courseimg{
+  width:96%;
+  height:328rpx;
+  padding: 1% 1%;
+}
+
+.cou-title{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "微软雅黑";
+  text-align: left;
+  padding: 0rpx 3%;
+}
+.cou-info{
+  display: flex;
+  padding: 4% 3%;
+  position: relative;
+
+}
+.headimg{
+  display: flex;
+  flex-direction: row;
+}
+.headimage{
+  width:100rpx;
+  height:100rpx;
+  border-radius: 50rpx;
+}
+.headname{
+  font-size: 14px;
+  color:#888888;
+  line-height: 91rpx;
+  text-indent: 20rpx;
+
+}
+.classtime{
+  display: flex;
+  flex-direction:row;
+  font-size: 14px;
+  color:#888888;
+  line-height: 91rpx;
+  position: absolute;
+  right:21rpx; 
+}
+.clear{
+  display: flex;
+  flex-direction: column;
+  height:70rpx;
+  background: #eeeeee;
+}
+.nocourse{
+  display: flex;
+  flex-direction: column;
+  color:#aaaaaa;
+  font-size: 12px;
+  padding: 30rpx 0rpx;
+}
